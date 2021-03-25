@@ -1,0 +1,29 @@
+.success-block{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.round-block{
+  position: relative;
+  height: 153px;
+  width: 153px;
+  border-radius: 50%;
+  background: rgba(97, 62, 234, 0.1);
+
+    img{
+      position: absolute;
+      left: 25px;
+    }
+}
+
+.text-block{
+  margin-top: 30px;
+  display: block;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  color: #613EEA;
+}

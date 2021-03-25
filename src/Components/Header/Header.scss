@@ -1,0 +1,29 @@
+.header{
+  padding: 16px;
+  height: 60px;
+  width: 100%;
+  color: #ffff;
+  display: flex;
+  background: #613EEA;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo{
+  max-width: 80px;
+  width: 100%;
+}
+
+.header-price{
+  font-family: Sarabun;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 42px;
+  letter-spacing: 0.5px;
+  text-align: left;
+}
+
+.header-menu{
+  transform: rotate(180deg);
+}

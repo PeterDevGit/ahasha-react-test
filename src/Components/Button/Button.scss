@@ -1,0 +1,38 @@
+.button-purple{
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
+  align-items: center;
+  margin: 0 auto;
+  height: 56px;
+  justify-content: center;
+  display: flex;
+  max-width: 343px;
+  width: 100%;
+  border-radius: 6px;
+  background: #613EEA;
+  border: none;
+  padding: 14px 20px;
+  box-shadow: 0 8px 20px 0 rgba(97, 62, 234, 0.32);
+
+    &.disabled{
+      background: #757F8C;
+      cursor: default;
+      box-shadow: 0 8px 20px 0 rgba(43, 41, 43, 0.32);
+
+        &:hover{
+          background: #757F8C;
+        }
+    }
+
+   &:hover{
+     background: #6944FF;
+   }
+
+    &:active,
+    &:visited,
+    &:focus{
+      border: none;
+      outline: none !important;
+    }
+}

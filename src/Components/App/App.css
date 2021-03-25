@@ -1,0 +1,10 @@
+body, header, footer, span, div,a, ul, li, input, button {
+  box-sizing: border-box;
+  font-family: Sarabun;
+}
+
+.App {
+  width: 100%;
+  max-width: 375px;
+  margin: 0 auto;
+}
